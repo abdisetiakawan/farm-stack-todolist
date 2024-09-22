@@ -1,0 +1,35 @@
+# Bytecode dan file cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Distribusi / build
+build/
+dist/
+*.egg-info/
+
+# Konfigurasi editor dan IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Konfigurasi sistem operasi
+.DS_Store
+Thumbs.db
+
+# File log
+*.log
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*
+
+# File environment
+.env
+
+# Lain-lain
+*.sqlite3
